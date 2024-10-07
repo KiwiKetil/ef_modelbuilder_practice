@@ -1,0 +1,6 @@
+@ModelbuilderAPI_HostAddress = http://localhost:5222
+
+GET {{ModelbuilderAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
