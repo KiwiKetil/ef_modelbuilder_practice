@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ModelbuilderAPI;
 using ModelbuilderAPI.Models;
 using System;
 using System.Collections.Generic;
@@ -7,13 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ModelbuilderAPI;
-public class BookDbContext : DbContext
+namespace ModelbuilderAPI.Data;
+public class BookDbContext(DbContextOptions options) : DbContext(options)
 {
-    public BookDbContext(DbContextOptions options) : base(options)
-    {
-    }
-
     public DbSet<Author> Authors { get; set; }
     public DbSet<Book> Books { get; set; }
     public DbSet<Genre> Genres { get; set; }
@@ -68,7 +63,7 @@ public class BookDbContext : DbContext
 
         modelBuilder.Entity<Book>()
            .Property(b => b.ReleaseYear)
-           .IsRequired();       
+           .IsRequired();
 
         #endregion Book
 
@@ -91,7 +86,7 @@ public class BookDbContext : DbContext
 
         modelBuilder.Entity<BookReview>()
             .HasKey(br => br.Id);
-       
+
         modelBuilder.Entity<BookReview>()
             .Property(br => br.Id)
             .IsRequired();

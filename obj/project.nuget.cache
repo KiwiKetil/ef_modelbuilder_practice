@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jnvi/a17t6U=",
+  "dgSpecHash": "cGfjES0Auuk=",
   "success": true,
-  "projectFilePath": "C:\\Projects\\TestAnything\\ModelbuilderAPI\\ModelbuilderAPI.csproj",
+  "projectFilePath": "C:\\Projects\\ModelbuilderAPI\\ModelbuilderAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ketil\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ketil\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

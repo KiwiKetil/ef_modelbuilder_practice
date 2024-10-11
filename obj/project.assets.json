@@ -2728,11 +2728,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\TestAnything\\ModelbuilderAPI\\ModelbuilderAPI.csproj",
+      "projectUniqueName": "C:\\Projects\\ModelbuilderAPI\\ModelbuilderAPI.csproj",
       "projectName": "ModelbuilderAPI",
-      "projectPath": "C:\\Projects\\TestAnything\\ModelbuilderAPI\\ModelbuilderAPI.csproj",
+      "projectPath": "C:\\Projects\\ModelbuilderAPI\\ModelbuilderAPI.csproj",
       "packagesPath": "C:\\Users\\ketil\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\TestAnything\\ModelbuilderAPI\\obj\\",
+      "outputPath": "C:\\Projects\\ModelbuilderAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ketil\\AppData\\Roaming\\NuGet\\NuGet.Config",

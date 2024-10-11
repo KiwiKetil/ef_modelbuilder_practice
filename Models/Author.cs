@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ModelbuilderAPI;
+namespace ModelbuilderAPI.Models;
 public class Author
 {
     public int Id { get; set; }
