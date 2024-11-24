@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 namespace ModelbuilderAPI.Data;
 public class BookDbContext(DbContextOptions options) : DbContext(options)
 {
-    public DbSet<Author> Authors { get; set; }
-    public DbSet<Book> Books { get; set; }
-    public DbSet<Genre> Genres { get; set; }
-    public DbSet<BookCover> BookCovers { get; set; }
-    public DbSet<BookReview> BookReviews { get; set; }
+    public required DbSet<Author> Authors { get; set; }
+    public required DbSet<Book> Books { get; set; }
+    public required DbSet<Genre> Genres { get; set; }
+    public required DbSet<BookCover> BookCovers { get; set; }
+    public required DbSet<BookReview> BookReviews { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
